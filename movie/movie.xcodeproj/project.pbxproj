@@ -14,6 +14,8 @@
 		D414948F2654428100AB48D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D414948E2654428100AB48D3 /* Assets.xcassets */; };
 		D41494922654428100AB48D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41494902654428100AB48D3 /* LaunchScreen.storyboard */; };
 		D414949B2654452600AB48D3 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414949A2654452600AB48D3 /* MyTableViewCell.swift */; };
+		D4C9805726669E68003423C5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9805626669E68003423C5 /* DetailViewController.swift */; };
+		D4C9805B2666A89D003423C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9805A2666A89D003423C5 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D41494912654428100AB48D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D41494932654428100AB48D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D414949A2654452600AB48D3 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		D4C9805626669E68003423C5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D4C9805A2666A89D003423C5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 				D41494872654428000AB48D3 /* SceneDelegate.swift */,
 				D41494892654428000AB48D3 /* ViewController.swift */,
 				D414949A2654452600AB48D3 /* MyTableViewCell.swift */,
+				D4C9805626669E68003423C5 /* DetailViewController.swift */,
 				D414948B2654428000AB48D3 /* Main.storyboard */,
 				D414948E2654428100AB48D3 /* Assets.xcassets */,
 				D41494902654428100AB48D3 /* LaunchScreen.storyboard */,
 				D41494932654428100AB48D3 /* Info.plist */,
+				D4C9805A2666A89D003423C5 /* MapViewController.swift */,
 			);
 			path = movie;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D414948A2654428000AB48D3 /* ViewController.swift in Sources */,
+				D4C9805B2666A89D003423C5 /* MapViewController.swift in Sources */,
 				D414949B2654452600AB48D3 /* MyTableViewCell.swift in Sources */,
+				D4C9805726669E68003423C5 /* DetailViewController.swift in Sources */,
 				D41494862654428000AB48D3 /* AppDelegate.swift in Sources */,
 				D41494882654428000AB48D3 /* SceneDelegate.swift in Sources */,
 			);

@@ -106,6 +106,15 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         }
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let dest = segue.destination as? DetailViewController else {return}
+        let myIndexPath = table.indexPathForSelectedRow!
+        let row = myIndexPath.row
+        print(row)
+        dest.movieName = (movieData?.boxOfficeResult.dailyBoxOfficeList[row].movieNm)!
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
