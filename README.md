@@ -13,13 +13,13 @@
 ## 실행 화면 
 
 <img width="365" alt="실행1" src="https://user-images.githubusercontent.com/76652929/126074831-be7edc9a-9da3-4b36-a12e-162131556c64.png">
-
+### - 영화 정보를 api를 통해 받아와 테이블에 이 정보를 뿌려줍니다.   
 <img width="354" alt="정보1" src="https://user-images.githubusercontent.com/76652929/126074835-63fd9adb-3c04-4325-a502-13f9648ab3ae.png">
 
 <img width="357" alt="정보2" src="https://user-images.githubusercontent.com/76652929/126074840-de5e08d7-dd36-46c8-947d-306a6e6ea9c6.png"> 
-
+### - 각 테이블을 누르면 해당되는 영화를 검색한 창을 띄워줍니다.   
 <img width="356" alt="맵검색" src="https://user-images.githubusercontent.com/76652929/126074843-c6c7de89-6a6f-4d67-b920-d972dee57b9d.png"> 
-
+### - 화면 아래에 탭바를 만들어 영화관 정보를 클릭하면 근처의 영화관을 찾아줍니다.    
 
 ## 코드 
 
